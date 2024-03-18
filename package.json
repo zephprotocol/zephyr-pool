@@ -1,0 +1,32 @@
+{
+  "name": "cryptonote-nodejs-pool",
+  "version": "1.4.1",
+  "license": "GPL-2.0",
+  "author": "Daniel Vandal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvandal/cryptonote-nodejs-pool.git"
+  },
+  "dependencies": {
+    "async": "1.5.2",
+    "base58-native": "*",
+    "bignum": "*",
+    "bufferutil": "*",
+    "cli-color": "*",
+    "cryptoforknote-util": "git+https://github.com/ZephyrProtocol/zephyr-cryptoforknote-util.git",
+    "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
+    "dateformat": "^4.5.1",
+    "domexception": "*",
+    "mailgun.js": "*",
+    "node-telegram-bot-api": "*",
+    "nodemailer": "^6.4.18",
+    "nodemailer-sendmail-transport": "*",
+    "redis": "3.1.2",
+    "socket.io": "^3.1.1",
+    "time-ago": "*",
+    "utf-8-validate": "*"
+  },
+  "engines": {
+    "node": ">=8.11.3"
+  }
+}
